@@ -6,3 +6,4 @@ int main(void) {
 
     return 0; // 正常終了をOSに通知
 }
+
