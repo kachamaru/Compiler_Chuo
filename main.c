@@ -1,9 +1,7 @@
-#include <stdio.h>
+#include<stdio.h>
+extern int test(void);
 
-int main(void) {
-    // 画面に文字を表示
-    printf("Hello, C World!\n");
-
-    return 0; // 正常終了をOSに通知
+int main(int argc, char* argv[]) {
+    printf("%d\n", test());
+    return (0);
 }
-
